@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightBlue">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="24dp"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5">
+
+        <EditText
+            android:id="@+id/edtPatientName"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:background="@null"
+            android:drawableStart="@drawable/ic_baseline_person_24"
+            android:drawablePadding="8dp"
+            android:ems="10"
+            android:fontFamily="sans-serif"
+            android:hint="@string/edtname"
+            android:inputType="text"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edtPatientNic"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:background="@null"
+            android:drawableStart="@drawable/baseline_perm_identity_24"
+            android:drawablePadding="8dp"
+            android:ems="10"
+            android:fontFamily="sans-serif"
+            android:hint="@string/edtnic"
+            android:inputType="text"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edtPatientAddress"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:background="@null"
+            android:drawableStart="@drawable/baseline_location_on_24"
+            android:drawablePadding="8dp"
+            android:ems="10"
+            android:fontFamily="sans-serif"
+            android:hint="@string/edtaddress"
+            android:inputType="text"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edtPatientAge"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:background="@null"
+            android:drawableStart="@drawable/baseline_note_alt_24"
+            android:drawablePadding="8dp"
+            android:ems="10"
+            android:fontFamily="sans-serif"
+            android:hint="@string/edtage"
+            android:inputType="number"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edtPatientDob"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:background="@null"
+            android:drawableStart="@drawable/baseline_calendar_month_24"
+            android:drawablePadding="8dp"
+            android:ems="10"
+            android:fontFamily="sans-serif"
+            android:hint="@string/edtdob"
+            android:inputType="date"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edtReason"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:background="@null"
+            android:drawableStart="@drawable/baseline_speaker_notes_24"
+            android:drawablePadding="8dp"
+            android:ems="10"
+            android:fontFamily="sans-serif"
+            android:hint="@string/edtR"
+            android:inputType="text"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

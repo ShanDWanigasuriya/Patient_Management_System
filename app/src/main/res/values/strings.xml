@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Patient Management System</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tvGreeting">WELCOME TO SIRISANDA HOSPITAL PATIENT MANAGEMENT SYSTEM</string>
+    <string name="tvGreetingMessage">WELCOME TO SIRISANDA HOSPITAL PATIENT MANAGEMENT SYSTEM</string>
+    <string name="Home">Home</string>
+    <string name="Prescription">Prescription</string>
+    <string name="Profile">Profile</string>
+    <string name="tvTitlep">PATIENTS LIST</string>
+    <string name="tv1">Patient Name</string>
+    <string name="tv2">Patient NIC</string>
+    <string name="tv3">Patient Address</string>
+    <string name="tv4">Patient Age</string>
+    <string name="tv5">Patient DOB</string>
+    <string name="tv7">Diagnosis</string>
+    <string name="alertTitle">PATIENTS MANAGEMENT SYSTEM</string>
+    <string name="alertMsg">ENTER A RECORD</string>
+    <string name="tvProfileInfo">BUILT BY SHAN DILHARA\nIT21814242</string>
+    <string name="tvLabelPatient">CLICK + TO CREATE A PATIENT</string>
+    <string name="tvLablePrescription">CLICK + TO VIEW A PRESCRIPTION</string>
+    <string name="edtname">Enter Patient Name</string>
+    <string name="edtnic">Enter Patient NIC</string>
+    <string name="edtaddress">Enter Patient Address</string>
+    <string name="edtage">Enter Patient Age</string>
+    <string name="edtdob">Enter Patient DOB</string>
+    <string name="edtR">Enter Diagnosis</string>
+
+</resources>
