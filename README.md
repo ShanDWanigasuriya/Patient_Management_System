@@ -37,6 +37,7 @@ git clone https://github.com/ShanDWanigasuriya/Patient_Management_System.git
 #### Add Patient Record
 ![Screenshot (304)](https://github.com/ShanDWanigasuriya/Patient_Management_System/assets/167173791/35ad2254-5ec2-4710-972e-cc428d2a7842)
 ![Screenshot (305)](https://github.com/ShanDWanigasuriya/Patient_Management_System/assets/167173791/a9209636-d196-4097-8d5f-09a509369c4d)
+#### View Patient Record
 ![Screenshot (306)](https://github.com/ShanDWanigasuriya/Patient_Management_System/assets/167173791/20baa07c-d98a-4fe6-bf4a-7d39df50e25b)
 #### Prescription Fragment
 ![Screenshot (307)](https://github.com/ShanDWanigasuriya/Patient_Management_System/assets/167173791/e892f3d5-aa78-4aa9-83dc-1f8c663a91bc)
